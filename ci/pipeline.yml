@@ -9,7 +9,7 @@ resources:
 - name: deploy-attendee-service
   type: cf
   source:
-    api: cfapps.haas-69.pez.pivotal.io 
+    api: https://api.run.haas-69.pez.pivotal.io 
     username: {{cf-user}}
     password: {{cf-password}}
     organization: cgrin-pal
